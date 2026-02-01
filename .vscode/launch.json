@@ -6,6 +6,9 @@
             "type": "debugpy",
             "request": "launch",
             "module": "uvicorn",
+            "env": {
+                "MODEL_PATH": "/home/thenameisvicky/Documents/quant_neural_models/rocket_3B_Q4.gguf"
+            },
             "args": [
                 "main:app",
                 "--reload",
